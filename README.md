@@ -1,5 +1,11 @@
-# Bunny.prototype
-## A prototype for a canvas platform game
+# This is a prototype for a game concept done as a school project in Game Design.
+
+_Compatible with **Chrome**_
+
+### Known bugs
+- Can't read multiple key events
+- Frame rate drops on computers with inferior CPU than macbooks'
+
 ------------------
 With four levels in this prototype, I was able to experiment with the game mechanics—like wall jumping and traps—to make interesting level designs, and how to teach the mechanics in a cognitive and experimental manner.
 
