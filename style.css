@@ -1,0 +1,113 @@
+body{
+	margin:0;
+	background-color: #333;
+	background-image: -webkit-linear-gradient(top, #444, #333);
+	background-image: -moz-linear-gradient(top, #444, #333);
+	font-family: "Helvetica Neue", san-serif;
+	color: #333;
+	color: rgba(0,0,0,0.8);
+}
+.wrapper{
+	margin:50px auto;
+	width: 600px;
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	top:0; right:0; bottom:0; left:0;
+}
+.start.overlay{
+	background: url("gfx/overlay_bg.png")
+}
+
+.finished.overlay{
+	padding: 100px;
+	background: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	line-height: 1.4em;
+}
+.finished.overlay h1{
+	font-size: 1.5em;
+}
+.finished.overlay a{
+	color: inherit;
+	font-weight: bold;
+}
+
+.incompatible.overlay{
+	padding: 100px;
+	background: rgba(255,255,255,0.7);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	line-height: 1.4em;
+}
+.incompatible.overlay h2{
+	font-size: 1.4em;
+}
+
+.hidden{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.fadeOut{
+	-webkit-transition: 0.4s;
+	opacity:0;
+	pointer-events: none;
+}
+
+.fadeIn{
+	-webkit-transition: 4s;
+	opacity:1;
+	pointer-events: auto;
+}
+
+.btn_underlay{
+	position: absolute;
+	top: 300px;
+	left: 210px;
+
+	width: 165px;
+	height: 75px;
+
+	background: url("gfx/play.png");
+	-webkit-filter: saturate(0);
+	opacity: 0.8;
+}
+
+#play_btn{
+	position: relative;
+	border:0;
+	padding:0;
+	width:0px;
+	height: 75px;
+
+	margin-top: 300px;
+	margin-left: 210px;
+
+	background: url("gfx/play.png");
+	opacity: 0.6;
+
+	font-size: 0;
+	cursor: pointer;
+	-webkit-transition: width 2s;
+}
+
+#play_btn:hover{
+	opacity: 1;
+}
+
+#play_btn.disabled{
+	cursor: pointer;
+	/*pointer-events: none;*/
+}
+
+#myCanvas{
+	display:block;
+	background:white;
+	box-shadow: 0px 0px 6px #000;
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: optimize-contrast;
+	-ms-interpolation-mode: nearest-neighbor;
+}
