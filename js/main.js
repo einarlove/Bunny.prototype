@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", function(){
 		loadAssets();
 	else{
 		document.querySelector(".incompatible.overlay").classList.add("fadeIn");
-		_gaq.push(['_trackEvent', 'Game', "incompatible"]);
+		if(_gaq) _gaq.push(['_trackEvent', 'Game', "incompatible"]);
 	}
 
 })

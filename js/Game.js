@@ -10,7 +10,7 @@ Game = function(){
 		game.camera = new Camera();
 		this.restart(true);
 		game.draw();
-		_gaq.push(['_trackEvent', 'Game', "start"]);
+		if(_gaq) _gaq.push(['_trackEvent', 'Game', "start"]);
 	}
 
 	this.restart = function(){
@@ -26,7 +26,7 @@ Game = function(){
 			game.camera.resetTo(bunny);
 			window.location.hash = "#" + levelNumber;
 			console.log(typeof levelNumber);
-			_gaq.push(['_trackEvent', 'Level', "start", levelNumber.toString()]);
+			if(_gaq) _gaq.push(['_trackEvent', 'Level', "start", levelNumber.toString()]);
 		}
 		else{
 			bunny.reset();
@@ -43,7 +43,7 @@ Game = function(){
 		var finishedOverlay = document.querySelector('.finished.overlay');
 		finishedOverlay.classList.add("fadeIn");
 		this.stopDraw = true;
-		_gaq.push(['_trackEvent', 'Game', "won"]);
+		if(_gaq) _gaq.push(['_trackEvent', 'Game', "won"]);
 	}
 
 	this.draw = function(){
