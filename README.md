@@ -1,12 +1,20 @@
-# This is a prototype for a game concept done as a school project in Game Design.
+# Bunny.prototype
+----
+A HTML5 Canvas game featuring a bunny who is always on the lookout for the next carrot.
+This was a school project in game design around January 2013 where we were to focus on story, esthetics, game mechanics and technology.
 
-_Compatible with **Chrome**_
+## The concept
+The concept was based on the story of a bunny who is in a frenzy for carrots, and loses focus on the one he got when he spot the next one. It is a 2D platform game with a carrot as the main objective, and uses a wall-jumping game mechanic inspired by [Super Meat boy](http://supermeatboy.com/).
 
-### Known bugs
-- Can't read multiple key events
-- Frame rate drops on computers with inferior CPU than macbooks'
+## Demo
+This was just a prototype created in a short period of time, so there are only four levels and Google Chrome was the only browser I could support. Nevertheless I would love it if you tried out [the prototype](//einarlove.com/view/bunny/) and [gave feedback](//twitter.com/einarlove) of what you thought.
 
-------------------
-With four levels in this prototype, I was able to experiment with the game mechanics—like wall jumping and traps—to make interesting level designs, and how to teach the mechanics in a cognitive and experimental manner.
+## Credits
+Einar Löve: Concept, level design, bunny artwork and programming.  
+Sara Tomter: Concept, level artwork and interface design.
 
-My partner was Sara Nilsdóttir Tomter, who was part of the idea creation and process, and stood for most of the graphics.
+---
+
+![Level concept](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/concept-level.jpg?raw=true)
+![Walljumping sketch](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/walljumping-rabbit-sketch.jpg?raw=true)
+![Assets files](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/assets.png?raw=true)
