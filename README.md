@@ -1,5 +1,5 @@
 # Bunny.prototype
-A HTML5 Canvas game featuring a bunny who is always on the lookout for the next carrot.
+An HTML5 Canvas game featuring a bunny who is always on the lookout for the next carrot.
 This was a school project in game design around January 2013 where we were to focus on story, esthetics, game mechanics and technology.
 
 ![Level concept](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/still-frame.jpg?raw=true)
@@ -18,5 +18,5 @@ Sara Tomter: Concept, level artwork and interface design.
 ---
 
 ![Level concept](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/concept-level.jpg?raw=true)
-![Walljumping sketch](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/walljumping-rabbit-sketch.jpg?raw=true)
+![Wall jumping sketch](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/walljumping-rabbit-sketch.jpg?raw=true)
 ![Assets files](http://github.com/einarlove/Bunny.prototype/raw/master/readme-files/assets.png?raw=true)
